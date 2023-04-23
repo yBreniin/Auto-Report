@@ -1,6 +1,27 @@
 repeat task.wait() until game:IsLoaded()
 
 words = {
+    ['newbie'] = 'Bullying',
+    ['palhaço'] = 'Bullying',
+    ['se mate'] = 'Bullying',
+    ['pobre'] = 'Bullying',
+    ['sem vida'] = 'Bullying',
+    ['semvida'] = 'Bullying',
+    ['mago'] = 'Bullying',
+    ['reportar'] = 'Bullying',
+    ['report'] = 'Bullying',
+    ['mãe'] = 'Bullying',
+    ['burro'] = 'Bullying',
+    ['estupido'] = 'Bullying',
+    ['família'] = 'Bullying',
+    ['criança'] = 'Bullying',
+    ['feio'] = 'Bullying',
+    ['lixo'] = 'Bullying',
+    ['morra'] = 'Bullying',
+    ['vou te matar'] = 'Bullying',
+    ['ez'] = 'Bullying',
+    ['ig'] = 'Offsite Links',
+    ['dc'] = 'Offsite Links',
     ['gay'] = 'Bullying',
     ['lesbian'] = 'Bullying',
     ['retard'] = 'Bullying',
@@ -68,13 +89,6 @@ function notify(title, text)
         Time = 5
     });
 end;
-
-
-if syn then
-   notify("Autoreport",'this DOESNT WORK ON SYNAPSE!')
-   notify('Autoreport','3ds disabled ReportAbuse so yea')
-   return
-end
 
 function handler(msg,speaker)
    for i,v in next, words do

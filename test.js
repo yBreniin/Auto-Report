@@ -1,1 +1,1 @@
-alert('O script foi carregado com sucesso!');
+console.log("host carregado pipipopo")

@@ -1,1 +1,13 @@
-console.log("host carregado pipipopo")
+var divElement = document.createElement('div');
+divElement.textContent = 'CARREGADO';
+divElement.style.position = 'fixed';
+divElement.style.top = '50%';
+divElement.style.left = '50%';
+divElement.style.transform = 'translate(-50%, -50%)';
+divElement.style.backgroundColor = '#f0f0f0';
+divElement.style.padding = '20px';
+divElement.style.border = '2px solid #333';
+divElement.style.fontSize = '24px';
+divElement.style.fontFamily = 'Arial, sans-serif';
+divElement.style.textAlign = 'center';
+document.body.appendChild(divElement);
